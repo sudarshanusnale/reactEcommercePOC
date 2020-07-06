@@ -39,13 +39,14 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install / Download
 
-    $ git clone https://github.com/sudarshanusnale/nodePOC
-    $ cd nodePOC
+    $ git clone https://github.com/sudarshanusnale/reactEcommercePOC
+    $ cd 
 
 
 ## Running the project
 
-    $ npm run dev
+    $ npm run dev //For node server and port 8080
+    $ npm start // For react server on port 3000
 
 ## To see output 
     
