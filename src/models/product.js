@@ -9,6 +9,11 @@ const productSchema = new mongoose.Schema({
         required : true,
         trim : true
     },
+    imagePath:{
+        type: String,
+        required: true,
+        default : 'provide image path'
+    },
     quantity:{
         type : Number,
         default : 0,

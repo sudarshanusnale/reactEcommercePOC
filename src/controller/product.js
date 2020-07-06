@@ -10,6 +10,7 @@ const craeteProduct = async (req,res)=>{
     
     try{
          await product.save()
+        
         res.status(201).send(product)
     }catch(e){
         res.status(400).send(e)        
@@ -31,6 +32,7 @@ const deleteProduct = async (req,res)=>{
 const readProducts = async (req,res)=>{
     try{
         const product = await Product.find({})
+        res.json(product)
         res.send(product)
     }catch(e){
         res.status(500).send()

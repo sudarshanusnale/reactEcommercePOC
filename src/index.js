@@ -6,9 +6,11 @@ const userRouter = require('./routers/user')
 const orderRouter = require('./routers/orders')
 const productRouter = require('./routers/product')
 
+const cors = require('cors')
 const app = express()
 const port = process.env.PORT
  
+app.use(cors())
 app.use(express.json()) 
 app.use(userRouter) 
 app.use(orderRouter)
