@@ -40,7 +40,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Install / Download
 
     $ git clone https://github.com/sudarshanusnale/reactEcommercePOC
-    $ cd 
+    $ npm install
 
 
 ## Running the project
